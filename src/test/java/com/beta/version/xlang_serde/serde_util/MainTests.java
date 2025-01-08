@@ -1,12 +1,14 @@
 package com.beta.version.xlang_serde.serde_util;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
 
 import org.junit.Before;
 import org.junit.Test;
 
 
-class MainTests {
+public class MainTests {
   private Main classUnderTest;
 	
 	@Before 
