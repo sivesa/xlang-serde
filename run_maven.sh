@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the project directory (change this to your project's path)
-PROJECT_DIR="/path/to/my/project"
+PROJECT_DIR="/home/ghost/problems/xlang-serde_v1"
 
 # Change to the project directory
 cd "$PROJECT_DIR" || { echo "Project directory not found!"; exit 1; }

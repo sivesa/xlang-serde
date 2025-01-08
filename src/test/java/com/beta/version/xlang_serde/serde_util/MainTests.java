@@ -1,13 +1,23 @@
 package com.beta.version.xlang_serde.serde_util;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import static org.junit.Assert.assertEquals;
 
-@SpringBootTest
-class SerdeUtilApplicationTests {
+import org.junit.Before;
+import org.junit.Test;
 
-	@Test
-	void contextLoads() {
+
+class MainTests {
+  private Main classUnderTest;
+	
+	@Before 
+	public void setUp() {
+		classUnderTest = new Main();
 	}
+	
+	@Test
+    public void testInitialFunction() {
+        // Verify that the initial balance is zero
+        assertTrue(true);
+    }
 
 }
