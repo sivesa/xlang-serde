@@ -16,6 +16,16 @@ public class Main {
             System.out.println("\nDeserialized from JSON:");
             System.out.println(personFromJson);
             
+            // Serialize to XML
+            String xml = CrossLanguageSerializer.toXml(person);
+            System.out.println("\nSerialized XML:");
+            System.out.println(xml);
+            
+            // Deserialize from XML
+            Person personFromXml = CrossLanguageSerializer.fromXml(xml, Person.class);
+            System.out.println("\nDeserialized from XML:");
+            System.out.println(personFromXml);
+            
         } catch (Exception e) {
             e.printStackTrace();
         }

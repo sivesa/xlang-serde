@@ -8,7 +8,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 
-public class MainTests {
+public class MainTest {
   private Main classUnderTest;
 	
 	@Before 
@@ -18,7 +18,6 @@ public class MainTests {
 	
 	@Test
     public void testInitialFunction() {
-        // Verify that the initial balance is zero
         assertTrue(true);
     }
 
