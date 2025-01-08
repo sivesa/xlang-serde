@@ -11,9 +11,3 @@
 - **Data Migration**: Convert objects to portable formats for easy migration between systems.
 - **Standardized Interchange**: Ensure data consistency across different environments and platforms.
 
----
-
-#### **License**
-This project is licensed under the [MIT License](LICENSE).
-
----
